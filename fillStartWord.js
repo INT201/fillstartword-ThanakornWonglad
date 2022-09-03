@@ -5,7 +5,7 @@ function fillStartWord(startWord, word) {
   let str2 = String(word)
 
   if (word == null || word == undefined) {
-    return 'undefined'
+    return undefined
   } else if (str2.substring(0,str1.length) == str1) {
     return word
   } else{
